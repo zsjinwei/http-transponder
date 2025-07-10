@@ -1,0 +1,5 @@
+listen_addr: ":8080"
+receive_path: "/push"
+forward_urls:
+- "http://service-a:9000/api/receive"
+- "http://service-b:9001/api/collect"
